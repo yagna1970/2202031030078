@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style >
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>Bike
+				<ul>
+					<li>Pulsar
+						<ul>
+							<li style="color:red ;">Pulsar 125
+							<ul>
+								<li> 2019</li>
+							</ul></li>
+							<li style="color:rgb(52, 34, 156) ;"> Pulsar 220F
+								<ul>
+									<li> 2007</li>
+								</ul></li>
+							</li>
+						</ul>
+					</li>
+					<li>TVS  
+						<ul>
+							<li>Apache RTR 220</li>
+							<li>Apache RTR 150</li>	
+							<li>Apache RTR 160</li>
+							<li>TVS Raider</li>
+							<li>TVS Jupiter</li>
+							<li></li>									
+						</ul>
+					</li>
+					
+					
+					
