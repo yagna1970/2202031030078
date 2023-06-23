@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Document</title>
+        <style>
+             form {
+                border: 1px solid black;
+                padding: 20px;
+                width: 400px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <i class="fa fa-light fa-user"></i><label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <i class="fa fa-solid fa-envelope"></i><label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <i class="fa fa-solid fa-lock"></i><label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <i class="fa fa-solid fa-page"></i><label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+        
+            <i class=""></i><label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+						<i class="fa fa-solid fa-male"></i>
+			<label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+						<i class="fa fa-solid fa-female"></i>
+
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+						<i class="fa fa-solid fa-transgender"></i>
+
+            <label for="other">Other</label><br><br>
+        
+            <i class="fa fa-solid fa-bell"></i><label for="newsletter">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+		
+			<i class="fa fa-solid fa-address-card"></i>
+            <label for="address">address:</label><br>
+            <textarea id="address" name="bio" rows="5" cols="30"></textarea><br><br>
+        
+			<i class="fa fa-solid fa-user-circle"></i>
+            <label for="avatar">Avatar:</label>
+            <input type="file" id="avatar" name="avatar"><br><br>
+			
+			<i class="fa fa-solid fa-globe"></i>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <optiom value=" india">India</optiom>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+        
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>
